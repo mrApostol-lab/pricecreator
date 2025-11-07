@@ -1,0 +1,18 @@
+suppliers:
+  gamepro:
+    method: ftp  # 'ftp', 'http', 'local'
+    host: "yi493606.ftp.tools"
+    user: "yi493606_priceonlin"
+    pass: "Sn922A9Uee"
+    file: "mental_price.xml"
+
+  # Приклад для другого постачальника з сайту (HTTP)
+  supplier2:
+    method: http
+    url: "https://example.com/prices.xml"  # URL файлу
+    file: "supplier2_prices.xml"  # Локальне ім'я після скачування
+
+  # Приклад локального файлу
+  # supplier3:
+  #   method: local
+  #   file: "local_prices.xml"
